@@ -15,9 +15,9 @@
 # Inherit from msm8226-common
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := ms013g
+TARGET_OTA_ASSERT_DEVICE := matissewifi
 
-DEVICE_PATH := device/samsung/ms013g
+DEVICE_PATH := device/samsung/matissewifi
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
@@ -39,8 +39,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
-TARGET_KERNEL_SOURCE := kernel/samsung/ms013g
-TARGET_KERNEL_CONFIG := cyanogenmod_ms013g_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/ks01lteskt
+TARGET_KERNEL_CONFIG := cyanogenmod_matissewifi_defconfig
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
