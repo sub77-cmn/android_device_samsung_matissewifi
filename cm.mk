@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common Bliss stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/matissewifi/full_matissewifi.mk)
@@ -24,4 +24,4 @@ PRODUCT_DEVICE := matissewifi
 PRODUCT_NAME := cm_matissewifi
 
 # Product property
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=matissewifixx TARGET_DEVICE=matissewifi BUILD_FINGERPRINT="samsung/matissewifixx/matissewifi:4.4.2/KOT49H/G7102XXUBOB1:user/release-keys" PRIVATE_BUILD_DESC="matissewifixx-user 4.4.2 KOT49H G7102XXUBOB1 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=matissewifixx TARGET_DEVICE=matissewifi BUILD_FINGERPRINT="samsung/matissewifixx/matissewifi:5.0.2/LRX22G/T530XXU1BOJ4:user/release-keys" PRIVATE_BUILD_DESC="matissewifixx-user 5.0.2 LRX22G T530XXU1BOJ4 release-keys"
